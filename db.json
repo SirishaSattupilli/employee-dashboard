@@ -1,0 +1,48 @@
+{
+  "employees": [
+    {
+      "id": "e0001",
+      "username": "hpotter",
+      "fullName": "Harry Potter",
+      "salary": 1234
+    },
+    {
+      "id": "e0002",
+      "username": "rwesley",
+      "fullName": "Ron Weasley",
+      "salary": 19234.5
+    },
+    {
+      "id": "e0003",
+      "username": "ssnape",
+      "fullName": "Severus Snape",
+      "salary": 4000
+    },
+    {
+      "id": "e0004",
+      "username": "rhagrid",
+      "fullName": "Rubeus Hagrid",
+      "salary": 3999.99
+    },
+    {
+      "id": "e0005",
+      "username": "voldemort",
+      "fullName": "Lord Voldemort",
+      "salary": 523.4
+    },
+    {
+      "id": "e0006",
+      "username": "gwesley",
+      "fullName": "Ginny Weasley",
+      "salary": 4000,
+      "eid": "e0007"
+    },
+    {
+      "id": "e0007",
+      "username": "hgranger",
+      "fullName": "Hermione Granger",
+      "salary": "19344",
+      "eid": "e0006"
+    }
+  ]
+}
