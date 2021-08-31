@@ -20,7 +20,7 @@ const EditUser = () => {
 
     useEffect(() => {
         const loadUser = async () => {
-            const result = await axios.get(`http://localhost:3003/employees/${id}`);
+            const result = await axios.get(`https://my-json-server.typicode.com/sirishasattupilli/employee-dashboard/employees/${id}`);
             setEmployee(result.data);
         }
         loadUser();
@@ -28,7 +28,7 @@ const EditUser = () => {
 
     const onSubmit = async e => {
         e.preventDefault();
-        await axios.put(`http://localhost:3003/employees/${id}`, employee);
+        await axios.put(`https://my-json-server.typicode.com/sirishasattupilli/employee-dashboard/employees/${id}`, employee);
         history.push("/");
     }
 

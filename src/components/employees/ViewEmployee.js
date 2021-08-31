@@ -15,7 +15,7 @@ const ViewEmployee = () => {
 
     useEffect(() => {
         const loadEmployee = async () => {
-            const result = await axios.get(`http://localhost:3003/employees/${id}`);
+            const result = await axios.get(`https://my-json-server.typicode.com/sirishasattupilli/employee-dashboard/employees/${id}`);
             setEmployee(result.data);
         }
         loadEmployee();
